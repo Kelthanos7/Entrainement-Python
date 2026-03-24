@@ -1,0 +1,5 @@
+Poids =  int(input("Quel est le poids ? "))
+Taille = float(input("Quelle est la taille ? "))
+Imc = Poids / (Taille * Taille)
+print ("L'IMC est de : ", end="")
+print (Imc)
