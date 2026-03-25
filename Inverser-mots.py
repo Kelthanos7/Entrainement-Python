@@ -1,0 +1,5 @@
+phrase = input("Saisissez une phrase : ")
+mot = phrase.split()
+print(mot[::-1])
+inverse = " ".join(mot[::-1])
+print(inverse)
