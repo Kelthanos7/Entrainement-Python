@@ -1,0 +1,5 @@
+a = input("Saisissez une phrase ")
+mot = a.split()
+nb_mots = len(mot)
+print ("la phrase contient", nb_mots, "mots")
+print (mot)
