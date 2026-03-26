@@ -1,0 +1,10 @@
+csv = "Alice,25,Paris,développeuse"
+données = csv.split(",") 
+Prénom = données[0]
+Age = données[1]
+Ville = données[2]
+Métier = données[3]
+print("Prénom =", Prénom)
+print("Age = ", Age)
+print("Ville = ", Ville)
+print("Métier = ", Métier)
